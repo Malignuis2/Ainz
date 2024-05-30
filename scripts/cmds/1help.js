@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "❥❦𝑬𝑷𝑯𝑬𝑵𝑰𝑨๖ۣ•҉★";
+const doNotDelete = "༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -61,7 +61,7 @@ module.exports = {
       pageNotFound: "Trang %1 không tồn tại"
     },
     en: {
-      help: "ʚ❤ɞ𝐒𝐇𝐈𝐒𝐔𝐈👻𝐂𝐌𝐃𝐒ʚ❤ɞ\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🏂 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🏂 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑۩ ,¸¸,ø¤º°`°๑۞๑\n│ %6\n✶⊶⊷⊶⊷❍",
+      help: "𝐍𝐀𝐙𝐀𝐑𝐈𝐊'𝐒 ✘ 𝐂𝐌𝐃'𝐒\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🏂 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🏂 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑۩ ,¸¸,ø¤º°`°๑۞๑\n│ %6\n✶⊶⊷⊶⊷❍",
       help2: "%1✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n》🍀𝚃𝚑𝚎 𝚋𝚘𝚝 𝚑𝚊𝚜 〚%2〛 𝗖𝗠𝗗𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝙲𝚊𝚗 𝚄𝚜𝚎🏂\n》🍀⊰⊹ 𝗧𝗬𝗣𝗘: %3help ⊹⊱ 𝚝𝚘 𝚟𝚒𝚎𝚠 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝙷𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚃𝚑𝚊𝚝𝚜 𝙲𝚖𝚍𝚜\n🌿 ×º°”`˜”°º× 𝐁𝐨𝐭:\n%4\n☆♬○♩●♪♪●♩○♬☆",
       commandNotFound: "𝗖𝗠𝗗 \"『%1』\" 𝙳𝚘𝚎𝚜 𝙴𝚡𝚒𝚜𝚝",
       getInfoCommand: "╭── NAME ────🎀\n %1\n├── INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n├── Usage\n%9\n├── Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────🎀",
@@ -128,7 +128,7 @@ module.exports = {
 
         const returnArray = allPage[page - 1] || [];
         const startNumber = (page - 1) * numberOfOnePage + 1;
-        msg += (returnArray || []).reduce((text, item, index) => text += `${index + startNumber}🎀${index + startNumber < 10 ? " " : ""}.💦${item.data}💦\n`, '').slice(0, -1);
+        msg += (returnArray || []).reduce((text, item, index) => text += `${index + startNumber}💀${index + startNumber < 10 ? " " : ""}.💫${item.data}💫\n`, '').slice(0, -1);
         await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
       }
       else if (sortHelp == "category") {
@@ -140,7 +140,7 @@ module.exports = {
     }
 
     const categoryName = value.config.category || "No Category";
-    const circularSymbol = "\n🥀✨☞"; // Add your desired circular symbol here
+    const circularSymbol = "\n➳"; // Add your desired circular symbol here
 
     if (!categoryCommands.has(categoryName)) {
       categoryCommands.set(categoryName, []);
@@ -150,7 +150,7 @@ module.exports = {
   }
 
   for (const [category, commands] of categoryCommands) {
-    msg += `✰🔖${category}🔖✰\n${commands.join(" ")}\n`;
+    msg += `ღ✫${category}✫ღ\n${commands.join(" ")}\n`;
   }
 
   message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
