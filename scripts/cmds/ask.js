@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const Prefixes = [
-  'ephemia'
+  'ainz'
 ];
 
 module.exports = {
@@ -27,7 +27,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
       if (!prompt) {
-        await message.reply("𝑬𝑷𝑯𝑬𝑴𝑰𝑨❤\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n𝑆𝑎𝑙𝑢𝑡 𝑚𝑜𝑛 𝑐ℎ𝑜𝑢💖 𝐴𝑝𝑝𝑟𝑜𝑐ℎ𝑒 𝑒𝑡 𝑝𝑜𝑠𝑒 𝑚𝑜𝑖 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛😏");
+        await message.reply("༺ 𝐍𝐀𝐙𝐀𝐑𝐈𝐊 ༻\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n𝙌𝙐𝙀𝙇 𝙀𝙎𝙏 𝙏𝙊𝙉 𝙋𝙍𝙊𝘽𝙇𝙀𝙈𝙀 𝙈𝙊𝙍𝙏𝙀𝙇𝙇𝙀");
         return;
       }
       api.setMessageReaction("⏰", event.messageID, (err) => {}, true);
