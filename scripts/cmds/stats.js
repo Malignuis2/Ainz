@@ -3,7 +3,7 @@ const { getStreamFromURL } = require("fb-watchman");
 module.exports = {
   config: {
     name: "stats",
-    aliases: ["ping","upt","time"],
+    aliases: ["upt"],
     version: "1.0",
     author: "OtinXSandip",
     role: 0,
@@ -41,7 +41,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "✨𝑫𝑰𝑺𝑻𝑨𝑵𝑪𝑬🍀𝑷𝑨𝑹𝑪𝑶𝑼𝑹𝑼𝑬✨",
+        body: "𝙏𝙀𝙈𝙋𝙎 𝘿𝙀 𝙈𝘼𝙍𝘾𝙃𝙀......🚶",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
@@ -52,17 +52,17 @@ module.exports = {
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.ibb.co/4f70Xs9/image.jpg";
+      const imgURL= "https://i.ibb.co/Df1G1WT/image.jpg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
-        body: `🍀𝑆𝑈𝑃𝐸𝑅♻️𝑆𝑂𝑁𝐼𝐶🍀 \────────\
+        body: `𝙏𝙊𝙈𝘽𝙀𝘼𝙐 𝘿𝙀 𝙉𝘼𝙕𝘼𝙍𝙄𝙆  \n────────\n
 
-🍀 | 𝐒𝐎𝐍𝐈𝐂 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\  ${uptimeString}\──────── \
+💀 | 𝙈𝙊𝙈𝙊𝙉𝙂𝘼 𝙏𝙍𝘼𝙑𝙀𝙇𝙄𝙉𝙂 𝙏𝙄𝙈𝙀﹞\n ${uptimeString}\n──────── \n
 
-📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\────────\n 𝗧𝗲𝗺𝗽: ${time}\──────── \
+📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n────────\n 𝗧𝗲𝗺𝗽: ${time}\n────────\n
 
-🏂 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\allUsers.length}\──────── \
+🙇| 𝘛𝘰𝘵𝘢𝘭  slaves﹞:$ {Users.length}\n────────\n
 
-🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\llThreads.length}\| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\──────── \ status: ${pingStatus}`,
+🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞:$ {Threads.length}\n| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n────────\n status: ${pingStatus}`,
         attachment: attachment,
       }, event.threadID);
     } catch (error) {
@@ -70,4 +70,4 @@ module.exports = {
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
     }
   }
-}
+                                                  }
