@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "𝐍𝐀𝐙𝐀𝐑𝐈𝐊 𝐏𝐑𝐄𝐅𝐈𝐗:💀%1💀\𝐧_________________\n𝐒𝐄𝐑𝐕𝐀𝐍𝐓𝐄 𝐏𝐑𝐄𝐃𝐈𝐗:💫%2💫____________________\n❤𝑀𝑌 𝐶𝑅𝐸𝐴𝑇𝑂𝑅𝑆❤\n_______________\nʬɸʬ Årčanô Mâlignũs ʬɸʬ\n ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻"
+			myPrefix: "𝐍𝐀𝐙𝐀𝐑𝐈𝐊 𝐏𝐑𝐄𝐅𝐈𝐗:💀%1💀\n_________________\n𝐒𝐄𝐑𝐕𝐀𝐍𝐓𝐄 𝐏𝐑𝐄𝐃𝐈𝐗:💫%2💫\n____________________\n❤𝑀𝑌 𝐶𝑅𝐸𝐴𝑇𝑂𝑅𝑆❤\n_______________\nʬɸʬ Årčanô Mâlignũs ʬɸʬ\n ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻"
 		}
 	},
 
