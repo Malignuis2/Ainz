@@ -17,15 +17,16 @@
     "ignoreCommand": []
   },
   "adminBot": [
-  "100090405019929" ,
-    "61559119588245" 
+  "100092250633517" ,
+    "61559119588245" ,
+    "61554691016244"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻",
+  "nickNameBot": " ARTHUR X HONORED",
   "prefix": "¥",
   "database": {
     "type": "sqlite",
