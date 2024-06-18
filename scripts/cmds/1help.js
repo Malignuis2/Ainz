@@ -113,7 +113,7 @@ module.exports = {
           else if (value.config.shortDescription)
             shortDescription = checkLangObject(value.config.shortDescription, langCode);
           if (shortDescription)
-            describe += `:\n۝${cropContent(shortDescription.charAt(0).toUpperCase() + shortDescription.slice(1))}۝`;
+            describe += `:\nʕ˖͜͡˖ʔ${cropContent(shortDescription.charAt(0).toUpperCase() + shortDescription.slice(1))}ʕ˖͜͡˖ʔ';
           arrayInfo.push({
             data: describe,
             priority: value.priority || 0
@@ -128,7 +128,7 @@ module.exports = {
 
         const returnArray = allPage[page - 1] || [];
         const startNumber = (page - 1) * numberOfOnePage + 1;
-        msg += (returnArray || []).reduce((text, item, index) => text += `${index + startNumber}💀${index + startNumber < 10 ? " " : ""}.💫${item.data}💫\n`, '').slice(0, -1);
+        msg += (returnArray || []).reduce((text, item, index) => text += `${index + startNumber}☞${index + startNumber < 10 ? " " : ""}.🌸${item.data}🌸\n`, '').slice(0, -1);
         await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
       }
       else if (sortHelp == "category") {
@@ -150,7 +150,7 @@ module.exports = {
   }
 
   for (const [category, commands] of categoryCommands) {
-    msg += `ღ✫${category}✫ღ\n${commands.join(" ")}\n`;
+    msg += `💜${category}✫ღ\n${commands.join(" ")}\n`;
   }
 
   message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
